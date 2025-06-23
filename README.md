@@ -30,8 +30,8 @@ _Note: GitHub PAT can be configured under developer settings in GitHub. For best
 
 ### Initial issue creation
 
-Copy the contents of `instructions.md` file into a new AI chat in agent mode. Make sure to replace the parameters: your repo name, path to your PRD and TDD documents (for peace of mind explicitly set them to be in the message context)
+Copy the contents of `instructions.md` file into a new AI chat in agent mode. Make sure to replace the parameters: your repo name, path to your PRD and TDD documents (for peace of mind explicitly set them to be in the message context).
 
-### Individidual issue implementation
+### Individual issue implementation
 
 Simply open a new chat set it to agentic mode and prompt for "Implement issue #X in repo: username/repo" and watch the magic happen. The rules in `.cursor/rules/github-rules.mdc` instruct AI to implement the issue from start to finish and file a PR.
