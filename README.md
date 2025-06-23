@@ -24,7 +24,7 @@ The work is inspired by https://github.com/snarktank/ai-dev-tasks
 }
 ```
 
-_Note: GitHub PAT can be configured under developer settings in GitHub. For best security practices use fine-grained tokens and apply principle of least privilege. Limit the scope to only the repositories you need access. For the approach describes here to fully work AI agent needs access to read repository contents (commits, branches...), read/write access to issues, read/write acces to pull requests, metadata (implicitly mandatory)_
+_Note: GitHub PAT can be configured under developer settings in GitHub. For best security practices use fine-grained tokens and apply principle of least privilege. Limit the scope to only the repositories you need AI to have access to. For the approach describes here to fully work AI agent needs access to read repository contents (commits, branches...), read/write access to issues, read/write acces to pull requests, metadata (implicitly mandatory)_
 
 ## Usage
 
