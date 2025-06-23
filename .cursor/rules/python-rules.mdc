@@ -1,0 +1,18 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+---
+description: Python rules
+globs: 
+alwaysApply: true
+---
+
+- When generating Python code always use type hints via `typing` library
+- Use test driven development TDD in a following way:
+    1. When implementing a new feature, check if there are tests for it already, if not, create them first
+    2. Once tests are implemented, build the requested feature using as little code as possible in order to pass the tests
+    3. After finishing implementaton - run the tests, if they pass, all good, if not, ask the user for next command
+- When building new features always update README.md with appropriate documentation
+- Always generate docstrings for functions

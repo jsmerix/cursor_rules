@@ -1,0 +1,8 @@
+---
+description: General issue implementation rules
+globs: 
+alwaysApply: true
+---
+
+- Avoid writing too much code - implement specs precisely with as little code as possible, while not compromising on the accuracy of the implementation.
+- Avoid churning on a problem - if a problem leads you down a debugging rabbit hole with more than 3 rounds of thinking, return back to the original problem and try a novel approach. 

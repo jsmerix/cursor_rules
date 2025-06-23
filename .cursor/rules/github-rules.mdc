@@ -1,0 +1,17 @@
+---
+description: GitHub issue rules
+globs: 
+alwaysApply: true
+---
+
+- When requested to work on a specific GitHub issue follow these steps:
+    1. Make sure you are on a master branch
+    2. Make sure the latest changes from origin have been pulled
+    3. Create a new branch, the name of the branch must be derived from the issue name
+    4. Commit all relevant files once code generation has been completed
+    5. Push the code 
+    6. Go through the original issue checklist one by one and make sure all the aciton items have been properly handled
+    7. Create a pull request, apart from any relevant content in the PR description also include a link to the issue, e.g. if you're working on issue no.5  then "Closes #5" so there is a link between branch and PR
+    8. Always update README.md with the relevant information about the implemented features
+- Additional rules for working with Git:
+    - never push to master branch
